@@ -151,7 +151,7 @@ class Stencil(Block_Transposition_Cipher):
 
 class Zigzag(Block_Transposition_Cipher):
     """ The Zigzag cipher transposes symbols in the plaintext
-        by first writing the characters first in  column,
+        by first writing the characters first down a column,
         then up the next column, then down the third and
         so forth filling out a grid. The plaintext is made by reading
         the grid rows left-to-right/top-to-bottom.
